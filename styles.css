@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 200px;
+}
+
+h3 {
+    margin: 0;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    appearance: none; /* Removes default arrow icon */
+    background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjN0U3RTdFIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMiAxMiI+PHBhdGggZD0iTTEuNyA0LjdsNC4yIDQuMiA0LjItNC4yYS42LjYgMCAwMS44IDBsNSA1YS42LjYgMCAwMSAwIC44bC01IDVhLjYuNiAwIDAxLS44IDBsLTQtNC4yLTQgNC4yYS42LjYgMCAwMS0uOC0uOGw1LTVhLjYuNiAwIDAwLS44IDBsLTUgNWEuNi42IDAgMDAtLjgtLjhsLTUtNWEuNi42IDAgMDEuNi0uNnoiLz48L3N2Zz4=');
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+}
+
+select:hover {
+    border-color: #30afbc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+select:focus {
+    border-color: #30afbc;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
